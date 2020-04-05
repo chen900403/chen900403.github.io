@@ -20,17 +20,21 @@
     var CONFIG = {"hostname":"cshtech.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="C.S.H program design blog">
-<meta property="og:url" content="https://cshtech.github.io/archives/index.html">
+  <meta name="description" content="for event in events:         if isinstance(event, MessageEvent):             if isinstance(event.message, TextMessage):                 mtext &#x3D; event.message.text                 if mtext &#x3D;&#x3D; &amp;apos">
+<meta property="og:type" content="article">
+<meta property="og:title" content="設計第一個linebot">
+<meta property="og:url" content="https://cshtech.github.io/2020/04/03/%E6%B8%AC%E8%A9%A6/index.html">
 <meta property="og:site_name" content="C.S.H program design blog">
+<meta property="og:description" content="for event in events:         if isinstance(event, MessageEvent):             if isinstance(event.message, TextMessage):                 mtext &#x3D; event.message.text                 if mtext &#x3D;&#x3D; &amp;apos">
 <meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2020-04-03T07:30:21.000Z">
+<meta property="article:modified_time" content="2020-04-03T09:38:59.131Z">
 <meta property="article:author" content="Shin Hong">
 <meta property="article:tag" content="blog">
 <meta property="article:tag" content=" technology">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://cshtech.github.io/archives/">
+<link rel="canonical" href="https://cshtech.github.io/2020/04/03/%E6%B8%AC%E8%A9%A6/">
 
 
 <script id="page-configurations">
@@ -38,12 +42,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-TW'
   };
 </script>
 
-  <title>歸檔 | C.S.H program design blog</title>
+  <title>設計第一個linebot | C.S.H program design blog</title>
   
 
 
@@ -142,90 +146,95 @@
         <div class="content-wrap">
           
 
-          <div class="content archive">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共有 3 篇文章。 繼續努力。</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://cshtech.github.io/2020/04/03/%E6%B8%AC%E8%A9%A6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Shin Hong">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="C.S.H program design blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          設計第一個linebot
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+              
+
+              <time title="創建時間：2020-04-03 15:30:21 / 修改時間：17:38:59" itemprop="dateCreated datePublished" datetime="2020-04-03T15:30:21+08:00">2020-04-03</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2020</span>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-04-03T15:30:21+08:00"
-              content="2020-04-03">
-          04-03
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/04/03/%E6%B8%AC%E8%A9%A6/" itemprop="url">
-            <span itemprop="name">設計第一個linebot</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-04-03T15:29:37+08:00"
-              content="2020-04-03">
-          04-03
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/04/03/post/" itemprop="url">
-            <span itemprop="name">post</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-04-03T11:06:28+08:00"
-              content="2020-04-03">
-          04-03
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/04/03/hello-world/" itemprop="url">
-            <span itemprop="name">Hello World</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
+        <pre><code>    for event in events:
+        if isinstance(event, MessageEvent):
+            if isinstance(event.message, TextMessage):
+                mtext = event.message.text
+                if mtext == &apos;那你覺得我午餐該吃什麼&apos;:
+                    func.sendText(event)
+                elif mtext == &apos;@傳送圖片&apos;:
+                    func.sendImage(event)
+                elif mtext == &apos;@傳送貼圖&apos;:
+                    func.sendStick(event)
+                elif mtext == &apos;你午餐吃什麼呢&apos;:
+                    func.sendMulti(event)
+                elif mtext == &apos;附近有什麼餐廳嗎&apos;:
+                    func.sendPosition(event)
+                if mtext == &apos;有推薦的餐點嗎&apos;:
+                    func.sendQuickreply(event)
+    return HttpResponse()
+else:
+    return HttpResponseBadRequest()</code></pre><p>心得:<br>     學習了幾個月的程式後,終於設計出一個作品了,在設計程式的過程中,遇到了一些困難(import module時發生錯誤、在撰寫程式碼時語法不正確等),藉由網路資源及書籍,最終找尋出合適的方法,經過一兩個禮拜的努力後,終於完成了現在的聊天機器人.<br>     在撰寫程式碼時,有時會感到疲倦甚至是煩躁,但只要換個角度想,咬緊牙度過了這關後,自己又離目標更近了一點,也就更有動力的往下繼續努力.<br>     最重要的是,經過這次的實作,了解到學習程式和設計程式有很大的不同,一個需要的是記憶,一個需要的是思考,今後也要多多練習實作培養出應有的計算思維.</p>
 
     </div>
-  </div>
-  
-  
-  
 
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/04/03/post/" rel="prev" title="post">
+      <i class="fa fa-chevron-left"></i> post
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
